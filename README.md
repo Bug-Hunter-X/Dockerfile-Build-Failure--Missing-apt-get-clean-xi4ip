@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles and its solution.  The original Dockerfile fails to build because it doesn't clean up after `apt-get install`.  The solution adds `apt-get clean` to resolve the issue.
